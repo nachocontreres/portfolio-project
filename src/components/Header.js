@@ -7,7 +7,7 @@ const Header = () => {
       <div className="main-info">
         <Typed
           className="typed-text"
-          strings={["Hi, ", "I'm Nacho, Frontend Developer"]}
+          strings={["Hi, ", "I'm Nacho, Frontend Developer."]}
           typeSpeed={50}
           backSpeed={50}
         />
