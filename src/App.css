@@ -6,6 +6,7 @@ body{
 /********* NAVBAR  ***********/
 nav{
   display: unset i !important;
+  z-index: 2;
 }
 
 .logo{
@@ -63,4 +64,76 @@ nav a.nav-link{
   background-color: #fff;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+.header-wrapper{
+  position: relative;
+  /* background-color: #000000; */
+  background: url(wallpaper_3.jpg);
+  /* background: url(wallpaper_3.jpg) no-repeat; */
+ background-size: cover;
+ background-position: center;
+ height: 90vh;
+ 
+}
+
+.main-info{
+  display: flex;
+  position: absolute !important;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.typed-text{
+  font-size: 2rem;
+  color: white;
+}
+
+.btn-contact{
+  text-decoration: none i !important;
+
+  margin: 2rem;
+  border: 1px solid white;
+  border-radius: 0;
+  padding: 0.4rem 0.5rem 0.5rem ;
+  color: white;
+}
+
+
+
+
+@keyframes push {
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.push {
+  text-decoration: none !important;
+  color: white !important;
+  display: inline-block;
+  -webkit-tap-highlight-color: transparent;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.push:hover {
+  animation-name: push;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  z-index: 1;
 }
