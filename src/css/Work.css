@@ -1,0 +1,54 @@
+.work{
+  min-height: 100vh;
+  background: #000;
+  text-align: center;
+  padding-bottom: 10vw;
+  color: #c5c5c5;
+  font-weight: bolder;
+}
+
+.card{
+  background-color: #585858 !important;
+  width: 60%;
+  height: 40vh;
+}
+
+.work-row{
+  margin-top: 1rem;
+}
+
+.company{
+  font-weight:bolder !important;
+}
+
+.card-body{
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+  	-moz-transition: all 1s ease; /* Firefox */
+  	-o-transition: all 1s ease; /* IE 9 */
+  	-ms-transition: all 1s ease; /* Opera */
+  	transition: all 1s ease;
+}
+.card-body:hover{
+	-webkit-transform: scale(1.10);
+	-moz-transform: scale(1.10);
+	-o-transform: scale(1.10);
+	-ms-transform: scale(1.10);
+	transform: scale(1.10);
+}
+
+.project-img {
+  box-shadow: 5px 10px 18px grey;
+  transition: all 0.2s ease-in-out;
+  width: 60vh !important;
+  height: 55vh !important;
+  opacity: 0.5;
+
+}
+
+.project-img:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 10px 18px rgb(202, 200, 200);
+  cursor: pointer;
+  opacity: 1;
+  
+}

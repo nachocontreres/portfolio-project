@@ -15,11 +15,11 @@ const Navbar = () => {
             <li className="nav-item active animation">
               <a className="nav-link " href="#about">About <span className="sr-only">(current)</span></a>
             </li>
+            {/* <li className="nav-item animation">
+              <a className="nav-link " href="#work">Experience</a>
+            </li> */}
             <li className="nav-item animation">
-              <a className="nav-link " href="#">Experience</a>
-            </li>
-            <li className="nav-item animation">
-              <a className="nav-link " href="#">Work</a>
+              <a className="nav-link " href="#work">Work</a>
             </li>
             <li className="nav-item animation">
               <a className="nav-link " href="#">Contact</a>

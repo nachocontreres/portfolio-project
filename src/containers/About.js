@@ -48,7 +48,7 @@ export function About() {
               </div>
             </div>
           </Col>
-          <Col lg={4}>
+          <Col sm={4}>
             <div className="picture">
               <Image
                 src={profile}
