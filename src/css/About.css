@@ -1,3 +1,7 @@
+body{
+  -webkit-font-smoothing: antialiased;
+}
+
 .about {
     min-height: 100vh;
     background: #000;
@@ -36,4 +40,39 @@
       margin-right: 0 !important;
   }
 
+  .skills-row{
+ 
+    margin-left: 0 !important;
+    
+  }
+
+  .skills{
+    list-style-type: none;
+    
+    float: left;
+  }
+
+  .skills-container{
+    margin-top: 3rem;
+    
+    
+  }
+.skills i{
+  /* top: 3%; */
+margin-right: 1rem;
+position: absolute;
+left: 0;
+display:inline-block;
+
+}
+.skills li{
+  align-self: left;
+  vertical-align: middle;
   
+  
+  }
+
+  ul{
+    padding-inline-start: 0.8rem;
+
+  }

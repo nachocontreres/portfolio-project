@@ -97,6 +97,7 @@ nav a.nav-link{
 }
 
 .typed-text{
+  font-weight: bolder;
   font-size: 2rem;
   color: white;
 
@@ -104,7 +105,7 @@ nav a.nav-link{
 
 .btn-contact{
   text-decoration: none i !important;
-
+  font-weight: bold;
   margin: 2rem;
   border: 1px solid white;
   border-radius: 0;
@@ -142,4 +143,32 @@ nav a.nav-link{
   position: absolute;
   height: 100vh;
   z-index: 1;
+}
+
+.scrollTop {
+  position: fixed; 
+  width: 3rem;
+  bottom: 20px;
+  height: 20px;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+  color: gray;
+  right: 1rem;
+  
+}
+
+.scrollTop:hover{
+  opacity: 10;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1.0;
+  }
 }

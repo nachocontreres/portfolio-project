@@ -2,15 +2,11 @@ import React from 'react'
 import logo from '../logoblanco.png'
 
 
-const scrollTop = () =>{
-  window.scrollTo({top: 0, behavior: 'smooth'});
-};
-
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <nav className="navbar navbar-expand-lg navbar-dark navbar-custom ">
         <div className="container">
-        <a className="navbar-brand" onClick={scrollTop} href="#"> <img className="logo push" src={logo} alt="logo.."/>   </a>
+        <a className="navbar-brand" href=""> <img className="logo push" src={logo} alt="logo.."/>   </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
