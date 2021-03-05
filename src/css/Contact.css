@@ -13,10 +13,11 @@
     color: white !important;
     background-color: Transparent !important;
     background-repeat:no-repeat;
+ 
 }
 
 .container-contact{
-    margin-top: 5rem;
+    margin-top: 3rem;
     width: 60% !important;
   
 }
@@ -25,3 +26,56 @@
     text-align: left !important;
 }
 
+input, label{
+    display: block;
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+    outline: none;
+    padding: 0.3rem;
+
+}
+
+
+.textarea{
+    display: block;
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+    outline: none;
+    padding: 0.3rem;
+    resize: both;
+    height: 6rem !important;
+    margin: 0 auto;
+    width: 30rem;
+}
+
+.container-submit{
+    text-align: center;
+}
+
+
+
+.container-inputs input{
+    width: 25rem !important;
+}
+
+.container-inputs {
+    display: grid;
+  place-items: center;
+
+}
+
+.container-labels label{
+    width: 25rem !important;
+}
+
+.container-labels{
+    display: grid !important;
+    place-items: left !important;
+}
+
+.alert{
+    margin-top: 2rem !important;
+    width: 10rem;
+    height: 3rem;
+    margin: auto;
+}

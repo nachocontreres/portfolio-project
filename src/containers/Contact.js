@@ -1,14 +1,21 @@
-import React from "react";
-import "../css/Contact.css";
-import { Form, Row, Col, Button } from "react-bootstrap";
+import React, { useState } from "react";
+import { Form, Button } from "react-bootstrap";
 import emailjs from "emailjs-com";
+import "../css/Contact.css";
+import { toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css'
 
 const Contact = () => {
   function sendEmail(e) {
     e.preventDefault();
 
     emailjs
-      .sendForm("gmail", "template_der28xl", e.target, "user_58CWMzg15yCsp655asXGe")
+      .sendForm(
+        "gmail",
+        "template_der28xl",
+        e.target,
+        "user_58CWMzg15yCsp655asXGe"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -17,7 +24,16 @@ const Contact = () => {
           console.log(error.text);
         }
       );
-      e.target.reset()
+    e.target.reset();
+
+    notify();
+    
+  }
+
+  toast.configure();
+
+   function notify () {
+    toast.success('Message Sent!', {position: toast.POSITION.BOTTOM_CENTER})
   }
 
   return (
@@ -27,7 +43,7 @@ const Contact = () => {
         <Form onSubmit={sendEmail} className="form">
           <Form.Group className="align-text-form">
             <Form.Label>Name</Form.Label>
-            <Form.Control type="text" placeholder="Name" name="name" />
+            <Form.Control required type="text" placeholder="Name" name="name" />
           </Form.Group>
           <Form.Group className="align-text-form">
             <Form.Label>Email</Form.Label>
@@ -41,11 +57,16 @@ const Contact = () => {
           </Form.Group>
           <Form.Group className="align-text-form">
             <Form.Label>Subject</Form.Label>
-            <Form.Control type="text" placeholder="Subject" required name="subject"/>
+            <Form.Control
+              type="text"
+              placeholder="Subject"
+              required
+              name="subject"
+            />
           </Form.Group>
           <Form.Group className="align-text-form">
             <Form.Label>Your Message</Form.Label>
-            <Form.Control as="textarea" rows={3} name="message"/>
+            <Form.Control required as="textarea" rows={3} name="message" />
           </Form.Group>
 
           <Button className="contact-button push" variant="dark" type="submit">
