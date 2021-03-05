@@ -13,7 +13,6 @@ export function About() {
           className="d-flex justify-content-center"
         >
           <Col lg={5}>
-            <div style={{ paddingLeft: "6vw" }}>
               <div className="p-4 bio">
                 <p>
                   Hi, I'm Ignacio Contreres, a Frontend Developer Based in
@@ -46,7 +45,6 @@ export function About() {
                 </Row>
                 </div>
               </div>
-            </div>
           </Col>
           <Col sm={4}>
             <div className="picture">
