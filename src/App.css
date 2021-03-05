@@ -136,6 +136,15 @@ nav a.nav-link{
   transform: translateZ(0);
   box-shadow: 0 0 1px transparent;
 }
+
+.contact-button button {
+  margin-top: 3rem;
+  border-color: white !important;
+  color: white !important;
+  background-color: Transparent !important;
+  background-repeat:no-repeat;
+}
+
 .push:hover {
   animation-name: push;
   animation-duration: 0.3s;

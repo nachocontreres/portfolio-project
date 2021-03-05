@@ -11,8 +11,7 @@ import "../css/Work.css";
 export function Work() {
   return (
     <div id="work" name="work" className="work">
-      <div>
-        <h1>My projects</h1>
+        <h1 style={{ paddingTop: "8vw" }}>My projects</h1>
         <Row
           style={{ marginTop: "6rem" }}
           className="d-flex justify-content-center"
@@ -128,8 +127,6 @@ export function Work() {
           </a>
           </Col>
         </Row>
-
-      </div>
     </div>
   );
 }

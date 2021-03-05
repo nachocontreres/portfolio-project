@@ -6,7 +6,6 @@ import profile from "../profile.JPG";
 export function About() {
   return (
     <div id="about" name="about" className="about">
-      <div>
         <h1 style={{ paddingTop: "8vw" }}>About Me</h1>
         <Row
           style={{ paddingTop: "6vw" }}
@@ -59,7 +58,6 @@ export function About() {
           </Col>
         </Row>
       </div>
-    </div>
   );
 }
 

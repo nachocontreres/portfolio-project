@@ -1,0 +1,27 @@
+.contact{
+  min-height: 100vh;
+  background: #000;
+  text-align: center;
+  padding-bottom: 10vw;
+  color: #c5c5c5;
+  font-weight: bolder;
+}
+
+.contact-button{
+    margin-top: 3rem;
+    border-color: white !important;
+    color: white !important;
+    background-color: Transparent !important;
+    background-repeat:no-repeat;
+}
+
+.container-contact{
+    margin-top: 5rem;
+    width: 60% !important;
+  
+}
+
+.align-text-form{
+    text-align: left !important;
+}
+

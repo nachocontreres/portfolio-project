@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./containers/About";
 import Work from "./containers/Work";
+import Contact from './containers/Contact'
 import ScrollArrow from "./components/Scroll";
 import Particles from "react-particles-js";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -24,11 +25,12 @@ function App() {
         }}
       />
 
-      <Navbar></Navbar>
-      <Header></Header>
-      <About></About>
+      <Navbar/>
+      <Header/>
+      <About/>
       <Work />
-      <ScrollArrow></ScrollArrow>
+      <Contact/>
+      <ScrollArrow></ScrollArrow>    
     </div>
   );
 }

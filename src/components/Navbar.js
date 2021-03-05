@@ -22,7 +22,7 @@ const Navbar = () => {
               <a className="nav-link " href="#work">Work</a>
             </li>
             <li className="nav-item animation">
-              <a className="nav-link " href="#">Contact</a>
+              <a className="nav-link " href="#contact">Contact</a>
             </li>
           
           </ul>
