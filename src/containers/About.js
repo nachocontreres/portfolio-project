@@ -29,7 +29,7 @@ export function About() {
                 </p>
                 <div className="skills-container">
                 <Row className="skills-row">
-                <Col sm={5}>
+                <Col >
                     <ul className="skills"> 
                       <li><i class="fas fa-angle-right"></i>React</li>
                       <li><i class="fas fa-angle-right"></i>HTML</li>
@@ -53,8 +53,8 @@ export function About() {
               <Image
                 src={profile}
                 className="bio-img"
-                width={500}
-                height={500}
+                width={200}
+                height={200}
               />
               {/* <img className="profile" src={profile} alt="profile.."/>  */}
             </div>

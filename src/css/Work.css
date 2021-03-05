@@ -39,9 +39,10 @@
 .project-img {
   box-shadow: 5px 10px 18px grey;
   transition: all 0.2s ease-in-out;
-  width: 60vh !important;
+  width: 90vh !important;
   height: 55vh !important;
   opacity: 0.5;
+
 
 }
 
@@ -51,4 +52,76 @@
   cursor: pointer;
   opacity: 1;
   
+}
+
+.cards{
+  padding-right: 5rem !important;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .project-img {
+    width: 45vh !important;
+    height: 40vh !important;
+  }  
+}
+
+.col{
+  flex-grow: 0;
+}
+
+.icon{
+  margin: 2rem;
+  float: right;
+  text-decoration: none;
+  color: gray;
+  
+}
+
+.github-link :hover{
+  
+  color: white;
+}
+
+
+.tech-stack li{
+  display: inline-block !important;
+  list-style-type: none;
+  margin-right: 1rem;
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
+.tech-stack ul :hover{
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.tech-stack ul{
+  left: 0;
+  margin-right: 1rem;
+  padding-inline-start: 0;
+}
+
+.tech-stack{
+ padding: 0 !important;
+}
+
+.bio{
+ margin-left: 3rem;
+ margin-right: 3rem;
+ margin-bottom: 3rem;
+}
+
+.bio h5{
+  font-weight: bolder;
+  margin-bottom: 3rem;
+}
+
+.github-link{
+  float: right !important;
+}
+
+.icon{
+  margin-top: 0;
 }

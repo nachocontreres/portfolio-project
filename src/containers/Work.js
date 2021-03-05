@@ -8,40 +8,123 @@ export function Work() {
   return (
     <div id="work" name="work" className="work">
       <div>
-        <h1 style={{ paddingTop: "5vw" }}>My projects</h1>
+        <h1>My projects</h1>
         <Row
-          style={{ paddingTop: "6vw" }}
+          style={{ marginTop: "6rem" }}
           className="d-flex justify-content-center"
         >
-          <Col xs={4}>
+          <Col>
+            <div className="bio">
+              <h5>Miguitarra.com</h5>
+              <p>
+                Miguitarra.com was designed for the childrends who want to play
+                the guitar
+              </p>
+
+              <div className="skills-container">
+                <Row className="skills-row">
+                  <Col className="tech-stack">
+                    <ul>
+                      <li>Angular</li>
+                      <li>Node.js</li>
+                      <li>Express</li>
+                    </ul>
+                  </Col>
+                </Row>
+              </div>
+            </div>
+          </Col>
+          <Col className="cards">
             <a target="_blank" href="https://www.google.com">
-              <Image
-                src={profile}
-                className="project-img"
-                width={700}
-                height={500}
-              />
+              <Image src={profile} className="project-img" />
             </a>
-          </Col>
-          <Col xs={4}>
-          <a target="_blank" href="https://www.google.com">
-              <Image
-                src={profile}
-                className="project-img"
-                width={700}
-                height={500}
-              />
-            </a>
-          </Col>
-          <Col xs={4}>
-            <Image
-              src={profile}
-              className="project-img"
-              width={700}
-              height={500}
-            />
           </Col>
         </Row>
+        <Row>
+          <Col>
+          <a href="#" className="github-link" title="To Github Repository">
+            <i className="icon fab fa-github fa-2x"></i>
+          </a>
+          </Col>
+        </Row>
+       
+        <Row
+          className="d-flex justify-content-center"
+        >
+          <Col>
+            <div className="bio">
+              <h5>Weather App</h5>
+              <p>
+                Miguitarra.com was designed for the childrends who want to play
+                the guitar
+              </p>
+
+              <div className="skills-container">
+                <Row className="skills-row">
+                  <Col className="tech-stack">
+                    <ul>
+                      <li>Angular</li>
+                      <li>Node.js</li>
+                      <li>Express</li>
+                    </ul>
+                  </Col>
+                </Row>
+              </div>
+            </div>
+          </Col>
+          <Col className="cards">
+            <a target="_blank" href="https://www.google.com">
+              <Image src={profile} className="project-img" />
+            </a>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+          <a href="#" className="github-link" title="To Github Repository">
+            <i className="icon fab fa-github fa-2x"></i>
+          </a>
+          </Col>
+        </Row>
+       
+
+        <Row
+          className="d-flex justify-content-center"
+        >
+          <Col>
+            <div className="bio">
+              <h5>Note App</h5>
+              <p>
+                Miguitarra.com was designed for the childrends who want to play
+                the guitar
+              </p>
+
+              <div className="skills-container">
+                <Row className="skills-row">
+                  <Col className="tech-stack">
+                    <ul>
+                      <li>Angular</li>
+                      <li>Node.js</li>
+                      <li>Express</li>
+                    </ul>
+                  </Col>
+                </Row>
+              </div>
+            </div>
+          </Col>
+          <Col className="cards">
+            <a target="_blank" href="https://www.google.com">
+              <Image src={profile} className="project-img" />
+            </a>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+          <a href="#" className="github-link" title="To Github Repository">
+            <i className="icon fab fa-github fa-2x"></i>
+          </a>
+          </Col>
+        </Row>
+
       </div>
     </div>
   );

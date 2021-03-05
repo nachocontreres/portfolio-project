@@ -18,7 +18,7 @@
     box-shadow: 5px 10px 18px #888888;
     transition: all 0.2s ease-in-out;
     width: 40vh !important;
-    height: 55vh !important;
+    height: 50vh !important;
 
   }
   
@@ -34,9 +34,6 @@
 
   }
 
-  .row {
-      margin-right: 0 !important;
-  }
 
   .skills-row{
  
