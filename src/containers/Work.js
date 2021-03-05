@@ -1,6 +1,10 @@
 import React from "react";
 import { Card, Image, Col, Row } from "react-bootstrap";
-import profile from "../profile.JPG";
+import miguitarra1 from "../miguitarra.png";
+import miguitarra2 from "../miguitarra_2.png";
+import mapa1 from "../mapadetunoche_1.png"
+import mapa2 from "../mapadetunoche_2.png"
+import mapa3 from "../mapadetunoche_3.png"
 
 import "../css/Work.css";
 
@@ -15,9 +19,9 @@ export function Work() {
         >
           <Col>
             <div className="bio">
-              <h5>Miguitarra.com</h5>
+              <h5>miGuitarra</h5>
               <p>
-                Miguitarra.com was designed for the childrends who want to play
+               miGuitarra was designed for the childrends who want to play
                 the guitar
               </p>
 
@@ -36,11 +40,11 @@ export function Work() {
           </Col>
           <Col className="cards">
             <a target="_blank" href="https://www.google.com">
-              <Image src={profile} className="project-img" />
+              <Image src={miguitarra1} className="project-img" />
             </a>
           </Col>
         </Row>
-        <Row>
+        <Row className="github-row">
           <Col>
           <a href="#" className="github-link" title="To Github Repository">
             <i className="icon fab fa-github fa-2x"></i>
@@ -74,7 +78,7 @@ export function Work() {
           </Col>
           <Col className="cards">
             <a target="_blank" href="https://www.google.com">
-              <Image src={profile} className="project-img" />
+              <Image src={miguitarra2} className="project-img" />
             </a>
           </Col>
         </Row>
@@ -113,7 +117,7 @@ export function Work() {
           </Col>
           <Col className="cards">
             <a target="_blank" href="https://www.google.com">
-              <Image src={profile} className="project-img" />
+              <Image src={mapa1} className="project-img" />
             </a>
           </Col>
         </Row>
