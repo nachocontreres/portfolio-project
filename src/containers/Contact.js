@@ -1,11 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import { Form, Button } from "react-bootstrap";
 import emailjs from "emailjs-com";
 import "../css/Contact.css";
 import { toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Contact = () => {
+
+  useEffect(() =>{
+
+    Aos.init({duration:1000})
+  }, []);
+
   function sendEmail(e) {
     e.preventDefault();
 
@@ -37,8 +45,8 @@ const Contact = () => {
   }
 
   return (
-    <div id="contact" name="contact" className="contact">
-      <h1 style={{ paddingTop: "8vw" }}>Get In Touch</h1>
+    <div data-aos="fade-up" id="contact" name="contact" className="contact">
+      <h1 style={{ paddingTop: "12vw" }}>Get In Touch</h1>
       <div className="container-contact container">
         <Form onSubmit={sendEmail} className="form">
           <Form.Group className="align-text-form">

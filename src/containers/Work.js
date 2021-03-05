@@ -1,10 +1,9 @@
 import React from "react";
-import { Card, Image, Col, Row } from "react-bootstrap";
+import { Image, Col, Row } from "react-bootstrap";
 import miguitarra1 from "../miguitarra.png";
 import miguitarra2 from "../miguitarra_2.png";
 import mapa1 from "../mapadetunoche_1.png"
-import mapa2 from "../mapadetunoche_2.png"
-import mapa3 from "../mapadetunoche_3.png"
+import 'aos/dist/aos.css'
 
 import "../css/Work.css";
 
@@ -16,7 +15,7 @@ export function Work() {
           style={{ marginTop: "6rem" }}
           className="d-flex justify-content-center"
         >
-          <Col>
+          <Col data-aos="fade-right">
             <div className="bio">
               <h5>miGuitarra</h5>
               <p>
@@ -37,8 +36,8 @@ export function Work() {
               </div>
             </div>
           </Col>
-          <Col className="cards">
-            <a target="_blank" href="https://www.google.com">
+          <Col data-aos="fade-left" className="cards">
+            <a target="_blank" rel="noreferrer" href="https://www.google.com">
               <Image src={miguitarra1} className="project-img" />
             </a>
           </Col>
@@ -54,12 +53,11 @@ export function Work() {
         <Row
           className="d-flex justify-content-center"
         >
-          <Col>
+          <Col data-aos="fade-right">
             <div className="bio">
               <h5>Weather App</h5>
               <p>
-                Miguitarra.com was designed for the childrends who want to play
-                the guitar
+                Weather App is an app made for... lorem ipsum
               </p>
 
               <div className="skills-container">
@@ -75,8 +73,8 @@ export function Work() {
               </div>
             </div>
           </Col>
-          <Col className="cards">
-            <a target="_blank" href="https://www.google.com">
+          <Col data-aos="fade-left" className="cards">
+            <a target="_blank" rel="noreferrer" href="https://www.google.com">
               <Image src={miguitarra2} className="project-img" />
             </a>
           </Col>
@@ -93,7 +91,7 @@ export function Work() {
         <Row
           className="d-flex justify-content-center"
         >
-          <Col>
+          <Col data-aos="fade-right">
             <div className="bio">
               <h5>Note App</h5>
               <p>
@@ -114,8 +112,8 @@ export function Work() {
               </div>
             </div>
           </Col>
-          <Col className="cards">
-            <a target="_blank" href="https://www.google.com">
+          <Col data-aos="fade-left" className="cards">
+            <a target="_blank" rel="noreferrer" href="https://www.google.com">
               <Image src={mapa1} className="project-img" />
             </a>
           </Col>

@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Image, Row, Col } from "react-bootstrap";
 import "../css/About.css";
 import profile from "../profile.JPG";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 export function About() {
+
+  useEffect(() =>{
+
+    Aos.init({duration:2000})
+  }, []);
+
   return (
-    <div id="about" name="about" className="about">
+    <div data-aos="fade" id="about" name="about" className="about">
         <h1 style={{ paddingTop: "8vw" }}>About Me</h1>
         <Row
           style={{ paddingTop: "6vw" }}
@@ -20,7 +28,7 @@ export function About() {
                 <p>
                   I enjoy designing & engineering applications, and I'm always
                   seeking to improve the user experience by putting myself in
-                  theirs perspective.
+                  their perspective.
                 </p>
                 <p>
                   Here some of the technologies I've been working with recently:
@@ -37,8 +45,8 @@ export function About() {
                 <Col >
                     <ul className="skills"> 
                     <li><i class="fas fa-angle-right"></i>Angular</li>
-                      <li><i class="fas fa-angle-right"></i>Javascript</li>
-                      <li><i class="fas fa-angle-right"></i>SCSS</li>
+                      <li><i class="fas fa-angle-right"></i>React Native</li>
+                      <li><i class="fas fa-angle-right"></i>Node.js</li>
                     </ul>
                 </Col>
                 </Row>
@@ -53,7 +61,7 @@ export function About() {
                 width={200}
                 height={200}
               />
-              {/* <img className="profile" src={profile} alt="profile.."/>  */}
+             
             </div>
           </Col>
         </Row>

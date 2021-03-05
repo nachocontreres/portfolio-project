@@ -13,7 +13,7 @@ const Header = () => {
           backSpeed={50}
         />
 
-        <Button className="push" type="submit">
+        <Button href="#contact" className="push contact-button" type="submit">
           Contact me
         </Button>
       </div>
