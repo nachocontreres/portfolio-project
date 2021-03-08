@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio-project%E2%80%8B/static/css/main.9dc6e61e.chunk.css",
+    "main.js": "/portfolio-project%E2%80%8B/static/js/main.c50bb6b6.chunk.js",
+    "main.js.map": "/portfolio-project%E2%80%8B/static/js/main.c50bb6b6.chunk.js.map",
+    "runtime-main.js": "/portfolio-project%E2%80%8B/static/js/runtime-main.c14d9952.js",
+    "runtime-main.js.map": "/portfolio-project%E2%80%8B/static/js/runtime-main.c14d9952.js.map",
+    "static/css/2.cd278c63.chunk.css": "/portfolio-project%E2%80%8B/static/css/2.cd278c63.chunk.css",
+    "static/js/2.3cda29c9.chunk.js": "/portfolio-project%E2%80%8B/static/js/2.3cda29c9.chunk.js",
+    "static/js/2.3cda29c9.chunk.js.map": "/portfolio-project%E2%80%8B/static/js/2.3cda29c9.chunk.js.map",
+    "static/js/3.662d1e8b.chunk.js": "/portfolio-project%E2%80%8B/static/js/3.662d1e8b.chunk.js",
+    "static/js/3.662d1e8b.chunk.js.map": "/portfolio-project%E2%80%8B/static/js/3.662d1e8b.chunk.js.map",
+    "index.html": "/portfolio-project%E2%80%8B/index.html",
+    "static/css/2.cd278c63.chunk.css.map": "/portfolio-project%E2%80%8B/static/css/2.cd278c63.chunk.css.map",
+    "static/css/main.9dc6e61e.chunk.css.map": "/portfolio-project%E2%80%8B/static/css/main.9dc6e61e.chunk.css.map",
+    "static/js/2.3cda29c9.chunk.js.LICENSE.txt": "/portfolio-project%E2%80%8B/static/js/2.3cda29c9.chunk.js.LICENSE.txt",
+    "static/media/logoblanco.af0c3909.png": "/portfolio-project%E2%80%8B/static/media/logoblanco.af0c3909.png",
+    "static/media/mapadetunoche_1.738a5111.png": "/portfolio-project%E2%80%8B/static/media/mapadetunoche_1.738a5111.png",
+    "static/media/miguitarra_2.1a57c19b.png": "/portfolio-project%E2%80%8B/static/media/miguitarra_2.1a57c19b.png",
+    "static/media/profile.effd4415.JPG": "/portfolio-project%E2%80%8B/static/media/profile.effd4415.JPG",
+    "static/media/todoList_2.36c03e97.png": "/portfolio-project%E2%80%8B/static/media/todoList_2.36c03e97.png",
+    "static/media/App.css": "/portfolio-project%E2%80%8B/static/media/wallpaper_3.34e5a442.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c14d9952.js",
+    "static/css/2.cd278c63.chunk.css",
+    "static/js/2.3cda29c9.chunk.js",
+    "static/css/main.9dc6e61e.chunk.css",
+    "static/js/main.c50bb6b6.chunk.js"
+  ]
+}
