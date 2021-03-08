@@ -46,7 +46,7 @@ const Contact = () => {
 
   return (
     <div data-aos="fade-up" id="contact" name="contact" className="contact">
-      <h1 style={{ paddingTop: "12vw" }}>Get In Touch</h1>
+      <h1 style={{ paddingTop: "10vw" }}>Get In Touch</h1>
       <div className="container-contact container">
         <Form onSubmit={sendEmail} className="form">
           <Form.Group className="align-text-form">
@@ -78,7 +78,7 @@ const Contact = () => {
           </Form.Group>
 
           <Button className="contact-button push" variant="dark" type="submit">
-            Submit
+            Send Message
           </Button>
         </Form>
       </div>

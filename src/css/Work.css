@@ -43,7 +43,6 @@
 .project-img:hover {
   transform: scale(1.05);
   box-shadow: 5px 10px 18px rgb(202, 200, 200);
-  cursor: pointer;
   opacity: 1;
   
 }
@@ -147,4 +146,13 @@
 
 .icon{
   margin-right: 20vh;
+}
+
+.nopointer{
+  cursor: default;
+}
+
+.disabled{
+    pointer-events: none;
+    cursor: default;
 }
