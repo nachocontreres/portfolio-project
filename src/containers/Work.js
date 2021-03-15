@@ -3,6 +3,7 @@ import { Image, Col, Row } from "react-bootstrap";
 import miguitarra2 from "../miguitarra_2.png";
 import todo from "../todoList_2.png";
 import mapa from "../mapadetunoche_1.png";
+import crypto from "../crypto-tracker.png"
 import "aos/dist/aos.css";
 
 import "../css/Work.css";
@@ -38,14 +39,49 @@ export function Work() {
           </div>
         </Col>
         <Col data-aos="fade-left" className="cards">
-          <a target="_blank" rel="noreferrer" href="https://nachocontreres.github.io/miGuitarra​">
             <Image src={miguitarra2} className="project-img" />
-          </a>
         </Col>
       </Row>
       <Row className="github-row">
         <Col>
-          <a target="_blank" rel="noreferrer" href="https://github.com/nachocontreres/miGuitarra" className="github-link" title="To Github Repository">
+          <a target="_blank" rel="noreferrer" href="https://github.com/nachocontreres/miGuitarra/tree/master" className="github-link" title="To Github Repository">
+            <i className="icon fab fa-github fa-2x"></i>
+          </a>
+        </Col>
+      </Row>
+
+      <Row className="d-flex justify-content-center">
+        <Col data-aos="fade-right">
+          <div className="bio">
+            <h5>Crypto Tracker</h5>
+            <p>
+              Crypto tracker is a web app for tracking cryptocurrency prices, it has a search functionality for searching by coin name.
+              The data is obtained from CoinGecko API using Axios and React Hooks
+            </p>
+
+            <div className="skills-container">
+              <Row className="skills-row">
+                <Col className="tech-stack">
+                  <ul>
+                    <li>React</li>
+                    <li>Axios</li>
+                    <li>Css</li>
+                    <li>Coin Gecko API</li>
+                  </ul>
+                </Col>
+              </Row>
+            </div>
+          </div>
+        </Col>
+        <Col data-aos="fade-left" className="cards">
+          <a target="_blank" rel="noreferrer" href="https://nachocontreres.github.io/crypto-tracker">
+            <Image src={crypto} className="project-img" />
+          </a>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+        <a target="_blank" rel="noreferrer" href="https://github.com/nachocontreres/crypto-tracker" className="github-link" title="To Github Repository">
             <i className="icon fab fa-github fa-2x"></i>
           </a>
         </Col>

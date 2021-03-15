@@ -70,3 +70,8 @@ display:inline-block;
     padding-inline-start: 0.8rem;
 
   }
+
+  .col {
+
+    flex-grow: 1 !important;
+  }
