@@ -146,17 +146,6 @@ export function Work() {
           <Image src={mapa} className="project-img" />
         </Col>
       </Row>
-      <Row>
-        <Col>
-          <a
-            href="#"
-            className="github-link disabled"
-            title="To Github Repository"
-          >
-            <i className="icon fab fa-github fa-2x"></i>
-          </a>
-        </Col>
-      </Row>
     </div>
   );
 }
