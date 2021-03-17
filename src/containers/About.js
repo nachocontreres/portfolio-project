@@ -66,7 +66,7 @@ export function About() {
           </Col>
         </Row>
         <a href="cv.pdf" download="CV_Ignacio_Contreres.pdf" className="push contact-button">
-          Download CV <i class="fas fa-download" style={{ marginLeft: "1vw" }}></i>
+          Download CV <i class="fas fa-download" style={{ marginLeft: "1vw", marginBottom: "9vw"}}></i>
         </a>
       </div>
   );
