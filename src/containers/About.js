@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Image, Row, Col } from "react-bootstrap";
+import { Image, Row, Col, Button } from "react-bootstrap";
 import "../css/About.css";
 import profile from "../profile.JPG";
 import Aos from 'aos'
@@ -65,6 +65,9 @@ export function About() {
             </div>
           </Col>
         </Row>
+        <a href="cv.pdf" download="CV_Ignacio_Contreres.pdf" className="push contact-button">
+          Download CV <i class="fas fa-download" style={{ marginLeft: "1vw" }}></i>
+        </a>
       </div>
   );
 }
